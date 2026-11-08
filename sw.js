@@ -1,5 +1,5 @@
 // Service worker: keeps the app shell available offline. API calls (to script.google.com) are never cached.
-const CACHE = 'store-manager-v1.0.0';
+const CACHE = 'store-manager-v1.2.1';
 const SHELL = ['./', 'index.html', 'styles.css', 'config.js', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', (e) => {
